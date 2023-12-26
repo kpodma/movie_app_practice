@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 
 class Api {
 
-  final String apiKey = '6c425611aac1e459084221a373780510';
+  final String apiKey = 'your api key';
 
   Future<List<MovieResponseModel>> loadMoviesData() async {
     final uri = 'https://api.themoviedb.org/3/trending/movie/week?api_key=$apiKey';
